@@ -6,28 +6,19 @@
   box-sizing: inherit;
 }
 
-html {
-  font-size: 62.5%; // 1rem = 10px
-
-  @include respond(tab-land) {
-    font-size: 56.25%;
-  }
-
-  @include respond(tab-port) {
-    font-size: 50%;
-  }
-
-  @include respond(big-desk) {
-    font-size: 75%;
-  }
-}
-
 body {
-  box-sizing: border-box;
-  height: 100%;
-  width: 100vw;
+  min-height: 100vh;
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(59, 173, 227, 1) 0%,
+    rgba(87, 111, 230, 1) 25%,
+    rgba(152, 68, 183, 1) 51%,
+    rgba(255, 53, 127, 1) 100%
+  );
+  animation: AnimateBG 15s ease infinite;
 }
 
 ::selection {
