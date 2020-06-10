@@ -15,6 +15,7 @@
 
   &__left {
     background: white;
+    color: #333;
     height: calc(100% - 40px);
     top: 20px;
     position: relative;
@@ -24,8 +25,8 @@
   }
 
   &__title {
-    font-size: 34px;
-    font-weight: 900;
+    font-size: 26px;
+    font-weight: 800;
     margin: 50px 10% 30px;
   }
 
@@ -37,7 +38,7 @@
   }
 
   &__right {
-    background: #444;
+    background: #333;
     box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
     color: #f1f1f2;
     position: relative;
@@ -69,6 +70,7 @@
       }
     }
     label {
+      font-family: "Montserrat", sans-serif;
       color: #999;
       width: 100%;
       font-size: 14px;
@@ -77,7 +79,7 @@
       display: inline-block;
       pointer-events: none;
       left: 15px;
-      top: 12px;
+      top: 11px;
       transition: 0.2s ease all;
     }
 
@@ -92,12 +94,13 @@
   }
 
   #submit {
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     padding: 10px 5%;
     border: none;
     width: 90%;
     border-radius: 99px;
-    color: #fff;
+    color: #f1f1f2;
     cursor: pointer;
     text-align: center;
     border: none;
@@ -127,6 +130,8 @@
 
 @media (max-width: 767px) {
   .restricted {
+    margin-top: 100px;
+
     &__container {
       flex-direction: column;
       height: 630px;
@@ -145,7 +150,7 @@
       flex-shrink: 0;
       height: 100%;
       width: 100%;
-      max-height: 350px;
+      max-height: 320px;
     }
   }
 }
