@@ -6,6 +6,10 @@
   100% {
     background-position: 0% 50%; } }
 
+body {
+  opacity: 0;
+  transition: opacity 1.5s; }
+
 @font-face {
   font-family: "Montserrat";
   font-weight: 400;
