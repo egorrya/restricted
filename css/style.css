@@ -24,8 +24,6 @@
   box-sizing: inherit; }
 
 body {
-  position: relative;
-  min-height: 100vh;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   background-size: 300% 300%;
@@ -35,7 +33,7 @@ body {
 ::selection {
   background-color: #e6eef9; }
 
-.logo {
+.restricted-logo {
   position: absolute;
   top: 5px;
   left: 0;
@@ -45,9 +43,20 @@ body {
   width: 230px;
   height: auto; }
 
+.logo-container {
+  width: 100%; }
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 230px;
+  height: auto; }
+
 @media (max-width: 767px) {
-  .logo {
+  .restricted-logo {
     top: -80px;
+    width: 200px; }
+  .logo {
     width: 200px; } }
 
 .card {
@@ -61,7 +70,7 @@ body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1613479/inception.jpg") center center/cover;
   overflow: hidden;
-  margin: 0 auto; }
+  margin: 20vh auto 0; }
 
 .card-play {
   width: 48px;

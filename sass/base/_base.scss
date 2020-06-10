@@ -7,8 +7,6 @@
 }
 
 body {
-  position: relative;
-  min-height: 100vh;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   background-size: 300% 300%;
@@ -26,7 +24,7 @@ body {
   background-color: #e6eef9;
 }
 
-.logo {
+.restricted-logo {
   position: absolute;
 
   top: 5px;
@@ -41,9 +39,23 @@ body {
   height: auto;
 }
 
+.logo-container {
+  width: 100%;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 230px;
+  height: auto;
+}
+
 @media (max-width: 767px) {
-  .logo {
+  .restricted-logo {
     top: -80px;
+    width: 200px;
+  }
+  .logo {
     width: 200px;
   }
 }

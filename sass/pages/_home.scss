@@ -12,7 +12,7 @@ $card-icon: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1613479/play.svg";
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
   background: url($card-image) center center / cover;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 20vh auto 0;
 }
 
 .card-play {
