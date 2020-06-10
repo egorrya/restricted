@@ -59,7 +59,6 @@ body {
 
 @media (max-width: 767px) {
   .restricted-logo {
-    top: -80px;
     width: 200px; }
   .logo {
     width: 200px; } }
@@ -242,7 +241,8 @@ body {
 
 @media screen and (max-width: 767px) {
   .restricted {
-    margin-top: 100px; }
+    margin-top: 80px;
+    height: auto; }
     .restricted__container {
       flex-direction: column;
       height: 630px;
