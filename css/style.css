@@ -138,7 +138,7 @@ body {
     transform: translate(-50%, -50%) scale(88.88889);
     transition: transform 0.5s ease-out; }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .card {
     width: 320px;
     height: 180px; }
@@ -239,7 +239,7 @@ body {
     .restricted #submit:focus {
       outline: none; }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .restricted {
     margin-top: 100px; }
     .restricted__container {

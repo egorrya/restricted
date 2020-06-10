@@ -96,7 +96,7 @@ $card-icon: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1613479/play.svg";
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .card {
     width: 320px;
     height: 180px;
